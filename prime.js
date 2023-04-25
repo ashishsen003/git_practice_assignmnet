@@ -7,7 +7,7 @@ function prime(num){
             count++
         }
     }
-    if(count == 2)  console.log("Prime")  console.log("Not Prime")
+    (count == 2) ? console.log("Prime") : console.log("Not Prime")
 }
 
 prime(5)
